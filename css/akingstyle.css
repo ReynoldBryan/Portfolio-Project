@@ -1,0 +1,245 @@
+body{
+  
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+.head{
+  
+  background-color: rgb(111, 141, 238);
+}
+#mountain {
+  height: 400px;
+  width: 550px;
+  
+}
+
+h1 {
+color: #66bfbf;
+margin: 50px auto 0 auto;
+line-height: 3;
+font-family:harry;
+font-size: 45px;
+}
+
+h2 {
+color:blue;
+font-family: athen;
+font-size: 1.5rem;
+font-weight: normal;
+margin-top: 0;
+padding-bottom:10px ;
+background: linear-gradient(to right,rgb(185, 77, 185),rgb(30, 30, 170),rgb(161, 54, 54),rgb(197, 105, 121));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+letter-spacing: 1px;
+font-weight: 500;
+}
+
+h3{
+color: #11999E;
+font-family: cursive;
+}
+h4{
+  color: #48c7b2;
+}
+
+.top-container {
+  background-color: beige;
+  position: relative;
+  padding-top: 100px;
+  
+}
+
+@font-face{
+  src: url(../fonts/Great\ Wishes.otf);
+  font-family: harry;
+}
+@font-face{
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-family: athen;
+}
+.middle-container{
+  
+
+margin: 100px 0;
+
+}
+
+.skills{
+
+margin: 100px auto 100px auto;
+text-align: center;
+line-height: 2pt;
+}
+.Myskills{
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+
+}
+
+.Hobbies{
+width: 25%;
+margin: 100px auto 100px auto;
+text-align: center;
+}
+
+.browser{
+float: left;
+width: 15%;
+margin-right: 30px;
+
+}
+
+.button-container{
+background-color: beige;
+padding: 10px 0 20px;
+}
+.Message{
+text-align: center;
+width: 40%;
+margin: 40px auto 60 px;
+
+}
+.buttom-link {
+font-family:'Monserrat',sans-serif;
+font-size: 1rem;
+text-decoration: none;
+}
+
+.buttom-link:hover {
+color: rgb(225, 255 ,255);
+
+}
+.buttom-text {
+color: rgb(225, 255 ,255);
+font-family: monospace;
+font-size: 1.5rem;
+padding: 20px 0;
+text-align: center;
+
+}
+#cloud1{
+  padding-top: 30px;
+  height: 50px;
+  position:center;
+  left: 100px;
+  top: 150px;
+  transform: translateX(3rem);
+  animation: move 10s linear infinite; 
+} 
+@keyframes cloud1{
+  0%{margin-right: -10px;}
+  100%{margin-right: 2000px;}
+}
+
+#cloud2{
+   position: absolute;
+   padding-left: 200pt;
+  
+}
+@keyframes cloud1{
+  0%{margin-right: -10px;}
+  100%{margin-right: 2000px;}
+}
+#me{
+  border-radius: 3in;
+  width: 1in;
+  height: 1in;
+  float: center;
+  
+
+}
+#browser{
+  vertical-align: middle;
+  width:20pt ;
+  height:20pt ;
+
+  
+}
+.footer{
+
+  margin-top: 2in;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  background-color: rgb(53, 163, 139);
+}
+
+
+#copy{
+  color: white;
+}
+
+h5{
+  color:black;
+font-family: 'Monserrat',sans-serif;
+font-size: 1rem;
+font-weight: normal;
+margin-top: 0;
+padding-bottom:5px ;
+line-height: 10px;
+}
+
+
+#get{
+  text-align: center;
+  position: relative;
+}
+h6{
+  color: black;
+  position: center;
+  word-spacing: 5pt;
+  font-size:16px ;
+  
+}
+h1{
+  color:blue;
+}
+
+.but input[type="Contact"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #25fbd7;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+.but input[type="Contact"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    }
+.but a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.but a:hover
+{
+    color: #ffc107;
+}
+.moving image{
+  float: right;
+}
+#gif{
+  width: 1in;
+  height: in;
+}
+#linkin{
+  width: 10pt;
+  height: 10pt;
+}
+#fb{
+  width: 10pt;
+  height: 10pt;
+}
+#twitter{
+  width: 10pt;
+  height: 10pt;
+}
